@@ -30,10 +30,10 @@ with open("./data/day7.txt") as f:
 
                 expression += f" {operator} {number}"
 
-                if result == k:
-                    sum += k
-                    found = True
-                    break
+            if result == k:
+                sum += k
+                found = True
+                break
 
             if found:
                 break
